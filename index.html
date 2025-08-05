@@ -1,52 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="assets/styles.css" />
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AWS DevOps Portfolio</title>
+    <title>Awinash | AWS & DevOps Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
 </head>
-<body class="bg-gray-100 text-gray-900">
-    <header class="bg-white shadow">
-        <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-            <h1 class="text-3xl font-bold">Awinash | AWS & DevOps Engineer</h1>
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex items-center justify-between py-6 px-6">
+            <h1 class="text-3xl font-bold text-blue-700">Awinash</h1>
+            <a href="resume.pdf" download class="download-btn">📄 Download Resume</a>
         </div>
     </header>
-    <main class="max-w-4xl mx-auto p-4">
-        <section class="my-8">
-            <h2 class="text-2xl font-semibold">About Me</h2>
-            <p class="mt-2">I'm an aspiring AWS & DevOps freelancer passionate about cloud automation and scalable infrastructure. I help businesses deploy secure, cost-effective AWS solutions.</p>
+    <main class="max-w-5xl mx-auto px-6 py-10">
+        <section class="mb-12">
+            <h2 class="section-title">👨‍💻 About Me</h2>
+            <p class="mt-4 text-lg leading-relaxed">
+                I'm an aspiring AWS & DevOps freelancer passionate about cloud automation and scalable infrastructure. I help businesses deploy secure, cost-effective AWS solutions using modern DevOps tools and best practices.
+            </p>
         </section>
-        <section class="my-8">
-            <h2 class="text-2xl font-semibold">Projects</h2>
-            <div class="space-y-4 mt-4">
-                <div class="p-4 bg-white rounded shadow">
-                    <h3 class="text-xl font-bold">1. AWS S3 Static Website Hosting</h3>
-                    <p>Hosted a responsive static website on AWS S3 with CloudFront CDN and custom domain via Route 53.</p>
-                    <a href="#" class="text-blue-600">GitHub Repo</a>
+        <section class="mb-12">
+            <h2 class="section-title">🚀 Projects</h2>
+            <div class="grid gap-6 mt-6 md:grid-cols-2">
+                <div class="project-card">
+                    <h3 class="project-title">1. AWS S3 Static Website Hosting</h3>
+                    <p class="project-desc">Hosted a responsive static website on AWS S3 with CloudFront CDN and custom domain via Route 53.</p>
+                    <a href="#" class="project-link">🔗 GitHub Repo</a>
                 </div>
-                <div class="p-4 bg-white rounded shadow">
-                    <h3 class="text-xl font-bold">2. Serverless Contact Form</h3>
-                    <p>Created a Lambda + API Gateway + SES form that sends emails without needing a backend server.</p>
-                    <a href="#" class="text-blue-600">GitHub Repo</a>
+                <div class="project-card">
+                    <h3 class="project-title">2. Serverless Contact Form</h3>
+                    <p class="project-desc">Created a Lambda + API Gateway + SES form that sends emails without needing a backend server.</p>
+                    <a href="#" class="project-link">🔗 GitHub Repo</a>
                 </div>
             </div>
         </section>
-        <section class="my-8">
-            <h2 class="text-2xl font-semibold">Contact</h2>
-            <p>Email: awinashkamble8@gmail.com</p>
-            <a href="resume.pdf" download class="inline-block mt-4 px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
-    📄 Download Resume
-</a>
-            <p>GitHub: <a href="#" class="text-blue-600">github.com/yourusername</a></p>
+        <section class="mb-12">
+            <h2 class="section-title">📫 Contact</h2>
+            <ul class="mt-4 space-y-2 text-lg">
+                <li>Email: <a href="mailto:yourname@example.com" class="text-blue-600 hover:underline">yourname@example.com</a></li>
+                <li>GitHub: <a href="#" class="text-blue-600 hover:underline">github.com/yourusername</a></li>
+            </ul>
         </section>
     </main>
-    <footer class="bg-white shadow mt-12 py-4 text-center text-sm">
+    <footer class="bg-white text-center text-sm py-6 mt-12 border-t">
         © 2025 Awinash. All rights reserved.
     </footer>
 </body>
 </html>
-
-
