@@ -69,7 +69,7 @@ This project showcases how to host a professional portfolio website using **AWS 
 - Use the **endpoint URL** shown in S3 → Properties → Static website hosting
 
 ```
-http://your-bucket-name.s3-website-<region>.amazonaws.com
+http://awinash-portfolio.s3-website.ap-south-1.amazonaws.com/
 ```
 
 ---
