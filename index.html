@@ -1,51 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Awinash Kamble | AWS & DevOps Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/styles.css">
-</head>
-<body class="bg-gray-50 text-gray-800 font-sans">
-    <header class="bg-white shadow-md sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto flex items-center justify-between py-6 px-6">
-            <h1 class="text-3xl font-bold text-blue-700">Awinash</h1>
-            <a href="resume.pdf" download class="download-btn">📄 Download Resume</a>
-        </div>
-    </header>
-    <main class="max-w-5xl mx-auto px-6 py-10">
-        <section class="mb-12">
-            <h2 class="section-title">👨‍💻 About Me</h2>
-            <p class="mt-4 text-lg leading-relaxed">
-                I'm an aspiring AWS & DevOps freelancer passionate about cloud automation and scalable infrastructure. I help businesses deploy secure, cost-effective AWS solutions using modern DevOps tools and best practices.
-            </p>
-        </section>
-        <section class="mb-12">
-            <h2 class="section-title">🚀 Projects</h2>
-            <div class="grid gap-6 mt-6 md:grid-cols-2">
-                <div class="project-card">
-                    <h3 class="project-title">1. AWS S3 Static Website Hosting</h3>
-                    <p class="project-desc">Hosted a responsive static website on AWS S3 with CloudFront CDN and custom domain via Route 53.</p>
-                    <a href="#" class="project-link">🔗 GitHub Repo</a>
-                </div>
-                <div class="project-card">
-                    <h3 class="project-title">2. Serverless Contact Form</h3>
-                    <p class="project-desc">Created a Lambda + API Gateway + SES form that sends emails without needing a backend server.</p>
-                    <a href="#" class="project-link">🔗 GitHub Repo</a>
-                </div>
-            </div>
-        </section>
-        <section class="mb-12">
-            <h2 class="section-title">📫 Contact</h2>
-            <ul class="mt-4 space-y-2 text-lg">
-                <li>Email: <a href="mailto:awinashkamble8@gmail.com" class="text-blue-600 hover:underline">awinashkamble8@gmail.com</a></li>
-                <li>GitHub: <a href="#" class="text-blue-600 hover:underline">github.com/awinashkamble</a></li>
-            </ul>
-        </section>
-    </main>
-    <footer class="bg-white text-center text-sm py-6 mt-12 border-t">
-        © 2025 Awinash Kamble. All rights reserved.
-    </footer>
-</body>
-</html>
+<!-- Header -->
+<header class="bg-gray-900 text-white py-4 px-6 flex justify-between items-center shadow-md">
+  <h1 class="text-2xl font-bold">Awinash Kamble</h1>
+  <nav class="space-x-4">
+    <a href="#about" class="hover:underline">About</a>
+    <a href="#projects" class="hover:underline">Projects</a>
+    <a href="#contact" class="hover:underline">Contact</a>
+  </nav>
+</header>
+
+<!-- About Section -->
+<section id="about" class="py-12 px-6 bg-white text-gray-800">
+  <h2 class="text-3xl font-bold mb-4">About Me</h2>
+  <p class="text-lg max-w-3xl">
+    I'm an aspiring AWS & DevOps freelancer passionate about automation, cloud infrastructure, and open source.
+  </p>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-12 px-6 bg-gray-50">
+  <h2 class="text-3xl font-bold mb-6">Projects</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <!-- Project Card -->
+    <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+      <h3 class="text-xl font-semibold mb-2">S3 Static Hosting</h3>
+      <p>Hosted a static site using S3, CloudFront, and Route 53 with a custom domain.</p>
+    </div>
+    <!-- Add more project cards -->
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-12 px-6 bg-white">
+  <h2 class="text-3xl font-bold mb-4">Contact</h2>
+  <p>Email: <a href="mailto:you@example.com" class="text-blue-500 hover:underline">you@example.com</a></p>
+</section>
