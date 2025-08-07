@@ -5,6 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Awinash Kamble | AWS & DevOps Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Vanta.js + Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.net.min.js"></script>
+
+  <style>
+    html, body {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body class="bg-gray-100 text-gray-800">
 
@@ -21,12 +31,15 @@
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="bg-blue-50 py-16 text-center">
-    <h2 class="text-4xl font-bold text-gray-800">Hi, I'm Awinash 👋</h2>
-    <p class="text-lg mt-4 max-w-xl mx-auto">
-      Aspiring AWS & DevOps freelancer helping businesses scale with automation and cloud-native solutions.
-    </p>
+  <!-- Hero Section with 3D Background -->
+  <section id="hero" class="h-screen text-white flex items-center justify-center relative overflow-hidden">
+    <div class="absolute inset-0" id="vanta-bg"></div>
+    <div class="relative z-10 text-center px-4">
+      <h2 class="text-4xl md:text-5xl font-bold">Hi, I'm Awinash 👋</h2>
+      <p class="text-lg mt-4 max-w-xl mx-auto">
+        Aspiring AWS & DevOps freelancer helping businesses scale with automation and cloud-native solutions.
+      </p>
+    </div>
   </section>
 
   <!-- About -->
@@ -94,6 +107,22 @@
   <footer class="bg-white py-6 text-center text-sm text-gray-500">
     &copy; 2025 Awinash Kamble. Built with ❤️ and Tailwind CSS.
   </footer>
+
+  <!-- Vanta Background Init -->
+  <script>
+    VANTA.NET({
+      el: "#vanta-bg",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.0,
+      scaleMobile: 1.0,
+      color: 0x0077ff,
+      backgroundColor: 0x0a0a0a
+    });
+  </script>
 
 </body>
 </html>
